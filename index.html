@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+</head>
+<body bgcolor="yellow">
+    <main>
+        <header>
+            <font face="carrière">
+                <h1>Send Us a Message</h1>
+             </font>
+        </header>
+        <form action="./thanks.html" netlify method="post">
+            <fieldset>
+                <legend>
+                    <font face="Sans">User Information</font>
+                </legend>
+                <font face="Lucida Sans">
+                    <p>
+                        <label for="First Name">First Name</label><br>
+                        <input type="text" name="First Name" id="First Name">
+                    </p>
+                    <p>
+                        <label for="LastName">LastName</label><br>
+                        <input type="text" name="LastName" id="LastName">
+                    </p>
+                    <p>
+                        <label for="E-mail">E-mail</label><br>
+                        <input type="email" name="E-mail" id="E-mail">
+                    </p>
+                    <p>
+                        <label for="Phone">Phone</label><br>
+                        <input type="tel" name="Phone" id="Phone">
+                    </p>
+                </font>
+            </fieldset>
+            <fieldset>
+                <font face="carrière">
+                    <legend>Reason for the Query?</legend>
+                    <p>Please Select one Option</p>
+                    <ul>
+                       <li>
+                        <input type="checkbox" name="career" id="career" value="career">
+                        <label for="career">Career Oppurtunity</label>
+                       </li> 
+                       <li>
+                        <input type="checkbox" name="general" id="general" value="general">
+                        <label for="general">General Query</label>
+                       </li>
+                       <li>
+                        <input type="checkbox" name="complaint" id="complaint" value="complaint">
+                        <label for="complaint">Complaints</label>
+                       </li>
+                    </ul><br>
+                    <p>
+                        <label for="message">Type your message here</label>
+                        <input type="text" style="height:50px ;width:250px" name="message" id="message">
+                    </p>
+                 </font>
+            </fieldset>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
